@@ -53,30 +53,6 @@ const getUsersInRoom  = (room) => {
     );
 }
 
-addUser({
-  id: 22,
-  username: "John    ",
-  room: "Peristeri",
-});
-
-addUser({
-  id: 23,
-  username: "Alex",
-  room: "Peristeri",
-});
-
-addUser({
-  id: 24,
-  username: "Nick",
-  room: "Ilion",
-});
-
-addUser({
-  id: 25,
-  username: "Jasmine",
-  room: "Ilion",
-});
-
 module.exports = {
     addUser,
     removeUser,
